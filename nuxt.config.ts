@@ -1,6 +1,9 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
-
-// devtools = true and meta-->title =
-export default {
-  devtools: false,
-};
+export default defineNuxtConfig({
+  css: ["~/assets/css/main.css"],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+});
