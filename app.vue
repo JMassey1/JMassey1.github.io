@@ -1,5 +1,8 @@
 <template>
-  <div id="app">
+  <div
+    id="app"
+    class="min-h-screen bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black"
+  >
     <NuxtPage />
   </div>
 </template>
@@ -9,16 +12,3 @@ export default {
   name: "Jordan Massey",
 };
 </script>
-
-<script setup>
-useHead({
-  title: "Portfolio Site",
-});
-</script>
-
-<style>
-#app {
-  background: #e99090;
-  height: 100vh;
-}
-</style>
