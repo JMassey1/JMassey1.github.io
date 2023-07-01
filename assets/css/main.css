@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.prim-text {
+  @apply text-slate-400;
+}
+
+.sec-text {
+  @apply text-violet-400;
+}
